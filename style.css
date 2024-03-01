@@ -1,4 +1,6 @@
+/* CSS styles */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +8,15 @@
   color: white; /* Set default text color to white */
   text-transform: uppercase; /* Convert text to uppercase */
   text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Add transition for color and background-color changes */
 }
+
 html,
 body {
   width: 100%;
   height: 100%;
 }
+
 body {
   position: relative; /* Make body a reference for absolute positioning */
   display: flex;
@@ -77,6 +82,7 @@ h2 {
   border-radius: 10px;
   cursor: pointer;
   background-color: transparent; /* Remove background color */
+  margin-bottom: 10vh; /* Add margin bottom of 10vh */
 }
 
 .social-container {
