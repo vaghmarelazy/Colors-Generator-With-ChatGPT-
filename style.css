@@ -118,7 +118,7 @@ h2 {
   .color-change-button {
     display: block;
     position: absolute;
-    top: calc(50% + 30vh); /* Adjusted position */
+    top: calc(50% + 20vh); /* Adjusted position */
     left: 50%;
     transform: translateX(-50%);
   }
