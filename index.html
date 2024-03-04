@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Random Color Generator</title>
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container" id="container">
-    <h1>Random Color Generator</h1>
-    <h2 id="hexCode"></h2>
-    <div class="color-change-button" id="colorChangeButton">Click me</div>
-    <p class="instruction-text" id="instruction">Press >Space< button to change color</p>
-    <div class="social-container">
-      <a href="https://github.com/vaghmarelazy" target="_blank" class="social-text">Github</a>
-      <a href="https://www.instagram.com/lazy_developer/" target="_blank" class="social-text">Instagram</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color Generator</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="bg"></div>
+      <div class="head">Color Picker tool for</div>
+      <div id="cont">
+        <div class="head first">Designers</div>
+        <div class="head and">&</div>
+        <div class="head sec">Developers</div>
+      </div>
     </div>
-  </div>
+    <div class="container" id="container">
+      <h1>Random Color Generator</h1>
+      <h2 id="hexCode"></h2>
+      <div class="color-change-button" id="colorChangeButton">Click me</div>
+      <p class="instruction-text" id="instruction">
+        Press Space button to change color
+      </p>
+      <div class="social-container">
+        <a
+          href="https://github.com/vaghmarelazy"
+          target="_blank"
+          class="social-text"
+          >Github</a
+        >
+        <a
+          href="https://www.instagram.com/lazy_developer/"
+          target="_blank"
+          class="social-text"
+          >Instagram</a
+        >
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-  
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
