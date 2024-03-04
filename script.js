@@ -105,9 +105,9 @@ function getRandomColor() {
   var tl = gsap.timeline()
 
   tl.to('.loader',{
-    top:'-100%',
+    top:'-150%',
     delay:3,
-    duration:1.5,
+    duration:2,
     ease:"expo.out"
   })
  }
