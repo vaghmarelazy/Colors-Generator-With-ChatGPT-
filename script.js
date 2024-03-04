@@ -99,3 +99,16 @@ function getRandomColor() {
     colorChangeButton.style.color = buttonColor;
     colorChangeButton.style.borderColor = buttonColor;
   });
+
+ //Gsap 
+ function loading(){
+  var tl = gsap.timeline()
+
+  tl.to('.loader',{
+    top:'-100%',
+    delay:3,
+    duration:1.5,
+    ease:"expo.out"
+  })
+ }
+ loading()
